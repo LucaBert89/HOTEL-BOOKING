@@ -7,10 +7,12 @@
     <meta name ="copyright" content="Luca Bertoldi" />
     <meta name="description" content="An Hotel landing page, flash offer Packages and other activities">
     <meta name ="keywords" content="booking,hotel,holidays,flash offer, rooms,rooms free, holiday packages, holiday activities, tour plan, five star hotels,luxury hotels"/>
+    <meta property="og:type" content="Tour package website">
     <meta property="og:title" content="Best Tour Plan" />
     <meta property="og:description" content="Best tour plan helps you to look for the package that fits to you: hotel, activities,restaurants and a lot more." />
     <meta property="og:image" content="https://bestbookingplan.netlify.app/assets/images/Grand-hotel.svg" />
     <meta property="og:url" content="https://bestbookingplan.netlify.app/" />
+    <meta property="og:locale" content="it_IT">
 
     <title>BestTourPlan</title>
     
@@ -41,8 +43,8 @@
                     <strong><span>BEST <span class="c-red">TOUR</span>  PLAN</span></strong>
                 </div>
                 <form action="" class="searchHotels">
-                    <label for="inputSearch"></label>
-                    <input type="text" class="inputSearch b-grey" name="inputSearch" placeholder="Search Location">
+                    <label for="locationSearch"></label>
+                    <input type="text" class="inputSearch b-grey" id="locationSearch" placeholder="Search Location">
                     <div class="searchBtn btnRed pointer"><i class="fas fa-search"></i></div>
                 </form>
             </div>
@@ -498,8 +500,8 @@
                 <span id="newsTitle">NEWSLETTER</span>
             </div>
             <form action="" class="searchHotels">
-                <label for="inputSearch"></label>
-                <input type="text" class="inputSearch b-grey p-l" name="inputSearch" placeholder="Your email address">
+                <label for="emailAddress"></label>
+                <input type="text" class="inputSearch b-grey p-l" id="emailAddress" placeholder="Your email address">
                 <div class="searchBtn btnRed pointer">Send</div>
             </form>
         </div>
@@ -620,9 +622,9 @@
                 <form action="">
                     <div id="messageAuthor">
                         <label for="authorName"></label>
-                        <input class="authorData" type="text" placeholder="Your full Name*" name="authorName">
+                        <input class="authorData" type="text" placeholder="Your full Name*" id="authorName">
                         <label for="authorPhone"></label>
-                        <input class="authorData" type="text" placeholder="Phone Number*" name="authorPhone">
+                        <input class="authorData" type="text" placeholder="Phone Number*" id="authorPhone">
                     </div>
                     <div id="messageBox">
                         <input id="messageArea" type="text" placeholder="Message">
