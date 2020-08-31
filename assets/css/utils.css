@@ -1,0 +1,73 @@
+.paddingPage {
+    padding: 0 100px;
+}
+
+.p-r20 {
+    padding-right:20px;
+}
+
+.p-r40 {
+    padding-right:40px;
+}
+
+.m-r {
+    margin-right:20px;
+}
+
+.b-grey {
+    background-color:#F5FAFE;
+}
+
+.c-red {
+    color: #EC1F46;
+}
+
+.b-red {
+    background-color: #EC1F46;
+}
+
+.b-white {
+    background-color:#fff;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.c-white {
+    color:#fff;
+}
+
+.flexCenter {
+    display: flex;
+    align-items:center;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.mleftFlex {
+    margin-left:auto;
+}
+
+.b-radius {
+    border-radius: 8px;
+}
+
+.w-50 {
+    width:50%;
+}
+
+.m-t30 {
+    margin-top:30px;
+}
+
+.p-l{
+    padding-left:20px;
+}
+
+.m50 {
+    margin:50px 0;
+}

@@ -3,9 +3,643 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Luca Bertoldi" />
+    <meta name ="copyright" content="Luca Bertoldi" />
+    <meta name="description" content="An Hotel landing page, flash offer Packages and other activities">
+    <meta name ="keywords" content="booking,hotel,holidays,flash offer, rooms,rooms free, holiday packages, holiday activities, tour plan, five star hotels,luxury hotels"/>
+    <meta property="og:title" content="Best Tour Plan" />
+    <meta property="og:description" content="Best tour plan helps you to look for the package that fits to you: hotel, activities,restaurants and a lot more." />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="https://ahrefs.com/blog/open-graph-meta-tags/" />
+
+    <title>BestTourPlan</title>
+    
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/utils.css">
+    <link href="./assets/fontawesome/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <section class="flexCenter paddingPage b-grey" id="clientHelps">
+            <span><strong>Questions? Need help?</strong> Call us on (+123)4561500</span>
+            <div class="clienticonsWrap flexCenter">
+                <div id="gift" class="pointer">
+                    <i class="fas fa-gift iconProgram"></i>
+                    <span>Gift</span> 
+                </div>
+                <div id="loyalty" class="pointer ">
+                    <i class="far fa-star iconProgram"></i>
+                    <span>Loyalty Program </span> 
+                </div>
+            </div>
+        </section>
+        <section class="flexCenter paddingPage b-white" id="tourBooking">
+            <div id="tourPlans" >
+                <div id="toursTitle">
+                    <strong><span>BEST <span class="c-red">TOUR</span>  PLAN</span></strong>
+                </div>
+                <form action="" class="searchHotels">
+                    <input type="text" class="inputSearch b-grey" placeholder="Search Location">
+                    <div class="searchBtn btnRed pointer"><i class="fas fa-search"></i></div>
+                </form>
+            </div>
+            <div class="clienticonsWrap flexCenter">
+                <div id="shoppingcartWrap" class="p-r40 pointer">
+                    <i class="fas fa-shopping-cart" id="shoppingIcon"></i>
+                    <span class="b-red">2</span>
+                </div>
+                <div id="profile" class="flexCenter">
+                    <img src="./assets/images/Ellipse 1.png" alt="" id="profilePic">
+                    <span id="profileName">Nathan</span> 
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </section>
+        <nav id="navMenu" class="paddingPage flexCenter">
+            <div class="menuOption">
+                <a href="" class="c-white">ALL DEALS</a>
+            </div>
+            <div class="menuOption">
+                <a href="" class="c-white">HOTELS</a>
+            </div>
+            <div class="menuOption">
+                <a href="" class="c-white">ACTIVITIES</a>
+            </div>
+            <div class="menuOption">
+                <a href="" class="c-white">HOTEL DAY PACKAGES</a>
+            </div>
+            <div class="menuOption">
+                <a href="" class="c-white">RESTAURANTS</a>
+            </div>
+            <div class="menuOption">
+                <a href="" class="c-white">EVENTS</a>
+            </div>
+            <div class="menuOption">
+                <a href="" class="c-white">RODRIGUES</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="paddingPage">
+            <section id="breadCrumb" class="flexCenter">
+                <span>Home/ Flash Offers/ Grand Hilton Hotel</span>
+            </section>
+            <section id="Info" class="flexCenter">
+                <div id="hotelInfo" class="flexColumn">
+                    <div id="hotelName">
+                        <div class="stars">
+                            <i class="fas fa-star starIcon"></i>
+                            <i class="fas fa-star starIcon"></i>
+                            <i class="fas fa-star starIcon"></i>
+                            <i class="fas fa-star starIcon"></i>
+                            <i class="fas fa-star starIcon"></i>
+                        </div>
+                        <div id="titleFlash">
+                            <h2 class="title p-r20">GRAND HILTON HOTEL</h2>
+                            <span class="btnRed" id="flashOffer">Flash Offer</span>
+                        </div>  
+                    </div>
+                    <div id="offerType">
+                        <span>Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free</span>
+                    </div>
+                </div>
+                    <div id="rating" class="mleftFlex flexCenter btnRed">
+                        <span>User Rating</span>
+                        <span id="rate">4.5/s</span>
+                    </div>
+            </section>
+            <section id="pictureMap">
+                <div id="picture" class="b-radius">  
+                </div>
+                <div id="booking">
+                    <div class="bookingCard b-radius">
+                        <div class="bookingInfo c-white">
+                            <div id="priceInfo" class="flexColumn">
+                                <span id="priceStart">price starts as</span>
+                                <span class="price">$ 8,500</span>
+                                <span class="guestInfo">per room / night</span>
+                            </div>
+                            <div id="guest" class="flexColumn">
+                                <div class="row">
+                                    <i class="far fa-user fontIcon"></i>
+                                    <span class="guestInfo">2 x Guests</span>
+                                </div>
+                                <div class="row">
+                                    <i class="fas fa-home fontIcon"></i>
+                                    <span class="guestInfo mleftFlex">1 x Room</span>
+                                </div>
+                            </div>
+                        </div>           
+                        <div id="quickBooking" class="c-white flexCenter">
+                            <span>Quick Booking</span>
+                            <span class="mleftFlex">12100</span>
+                        </div>
+                        <div class="btnRed flexCenter" id="otherOptions">
+                            <span>View Other Options</span>
+                        </div>
+                    </div>
+                    <div id="map">
+                    </div>
+                </div>
+            </section>
+            <section id="navPackage" class="flexCenter">
+                <div class="menuOption redFocus">
+                    <a href="">Package Summary</a>
+                </div>
+                <div class="menuOption redFocus">
+                    <a href="" class=>Hotel Information</a>
+                </div>
+                <div class="menuOption redFocus">
+                    <a href="">Rooms</a>
+                </div>
+                <div class="menuOption redFocus">
+                    <a href="">Facilities & Activities</a>
+                </div>
+                <div class="menuOption redFocus">
+                    <a href="">Dining & Entertainment</a>
+                </div>
+                <div class="menuOption redFocus">
+                    <a href="">Reviews</a>
+                </div>
+                <div class="menuOption redFocus">
+                    <a href="">Questions & Answers</a>
+                </div>
+            </section>
+            <section id="packageSummery">
+                <div class="title">
+                    PACKAGE SUMMERY
+                </div>
+                <div id="packageSection">
+                    <div class="firstRow">
+                        <div class="packages w-50">
+                            <div class="packageTitle">
+                                Package Highlights
+                            </div>
+                            <div class="packageInfo">
+                                <ul class="firstColumn w-50">
+                                    <li><i class="fas fa-check-circle checkIcon"></i>Half Board/ All Inclusive</li>
+                                    <li><i class="fas fa-check-circle checkIcon"></i>Child Under 11 Years Stay Free</li>
+                                    <li><i class="fas fa-check-circle checkIcon"></i>LUX* Me Spa</li>
+                                </ul>
+                                <ul class="secondColumn w-50">
+                                    <li><i class="fas fa-check-circle checkIcon"></i>Luxurious 5-Star Hotel</li>
+                                    <li><i class="fas fa-check-circle checkIcon"></i>Banyan An Adult Only Zone</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="packages w-50">
+                            <div class="packageTitle">
+                                Offer Details
+                            </div>
+                            <div class="packageInfo">
+                                <ul class="firstColumn w-50">
+                                    <li class="offerDetails">
+                                        <i class="fas fa-check-circle checkIcon"></i>
+                                        <div>Benefit from a special discounted CHILL’OUT OFFER at Grand Hilton Hotel.</div></li>
+                                        <div id="offerValidity">
+                                            * Valid until 30 April 2020
+                                        </div>
+                                </ul>
+                                <ul class="secondColumn w-50">
+                                    <li class="offerDetails">
+                                    <i class="far fa-calendar checkIcon"></i>
+                                    <div>10th March - 30th April 2020</div>  
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="secondRow">
+                        <div class="packages">
+                            <div class="packageTitle">
+                                Package Summery
+                            </div>
+                            <div class="packageInfo">
+                                <div class="flexColumn">
+                                    <ul>
+                                        <span class="subTitle">Purchase Inclusions</span>
+                                        <li><i class="fas fa-check-circle checkIcon"></i>Room as per selection</li>
+                                        <li><i class="fas fa-check-circle checkIcon"></i>Half Board or All Inclusive Meal Plan</li>
+                                        <li><i class="fas fa-check-circle checkIcon"></i>Complimentary Land & Water activities</li>
+                                        <li><i class="fas fa-check-circle checkIcon"></i>Child Under 11 years old stays free</li>
+                                        <li><i class="fas fa-check-circle checkIcon"></i>Free Wi-Fi</li>
+                                        <li><i class="fas fa-check-circle checkIcon"></i>Free Secure Parking</li>
+                                    </ul>
+                                    <ul>
+                                        <span class="subTitle">Meal Plan Available</span>
+                                        <li><i class="fas fa-check-circle checkIcon"></i>Half Board</li>
+                                        <li><i class="fas fa-check-circle checkIcon"></i>All Inclusive</li>
+                                    </ul>
+                                    
+                                    </div>
+                                    <div class="flexColumn">
+                                        <ul>
+                                            <span class="subTitle">Complimentary Land Based Activities</span>
+                                            <li><i class="fas fa-check-circle checkIcon"></i>Gym</li>
+                                            <li><i class="fas fa-check-circle checkIcon"></i>Beach Volley</li>
+                                            <li><i class="fas fa-check-circle checkIcon"></i>Table tennis</li>
+                                            <li><i class="fas fa-check-circle checkIcon"></i>Soccer balls</li>
+                                            <li><i class="fas fa-check-circle checkIcon"></i>Yoga</li>
+                                            <li><i class="fas fa-check-circle checkIcon"></i>Unlimited access to driving range</li>
+                                        </ul>
+                                        <ul>
+                                            <span class="subTitle">Entertainment</span>
+                                            <li><i class="fas fa-check-circle checkIcon"></i>Live music</li>
+                                            <li><i class="fas fa-check-circle checkIcon"></i>DJ & Mauritian Dance Show</li>
+                                        </ul>
+                                    </div>
+                                    <div class="flexColumn">
+                                        <ul>
+                                            <span class="subTitle">Complimentary Water Based Activities</span>
+                                            <li><i class="fas fa-check-circle checkIcon"></i>Water skiing</li>
+                                            <li><i class="fas fa-check-circle checkIcon"></i>Windsurfing</li>
+                                            <li><i class="fas fa-check-circle checkIcon"></i>Pedal boats</li>
+                                            <li><i class="fas fa-check-circle checkIcon"></i>Kayaking</li>
+                                            <li><i class="fas fa-check-circle checkIcon"></i>Aqua Gym</li>
+                                            <li><i class="fas fa-check-circle checkIcon"></i>Glass bottom boat trips</li>
+                                        </ul>
+                                        <ul>
+                                            <span class="subTitle">Check In & Check Out</span>
+                                            <li><i class="fas fa-check-circle checkIcon"></i>Check In Time 14:00</li>
+                                            <li><i class="fas fa-check-circle checkIcon"></i>Check Out Time 11:00</li>
+                                        </ul>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section id="otherPackages">
+                <div class="bigTitle">
+                    OTHER PACKAGES
+                </div>
+                <div id="packagesBlock">
+                        <div class="packageOther">
+                            <div class="firstpackageColumn flexColumn">
+                                <div id="firstpackageList">
+                                    <div class="imagePackage img1">
+                                    </div>
+                                    <div class="bookingCard bigCard">
+                                        <div class="hotelTitle">
+                                            <div class="stars">
+                                                <i class="fas fa-star starIcon"></i>
+                                                <i class="fas fa-star starIcon"></i>
+                                                <i class="fas fa-star starIcon"></i>
+                                                <i class="fas fa-star starIcon"></i>
+                                                <i class="fas fa-star starIcon"></i>
+                                            </div>
+                                            <div>
+                                                <span class="otherhotelName">Hotel Blue Haven</span>
+                                            </div>
+                                        </div>
+                                        <div class="description">
+                                            <span>Aute quis duis excepteur excepteur ipsum cat eiusmod consectetur enim laborum magna llit. Ipsum est fugiat velit ea llamco do esse ut in veniam sun in onsequat. Aute quis duis epteur excepteur ipsum occaecat eiusmod nsectetur enim laborum magna mollit. Ipsum est fugiat velit ea ullamco do</span>   
+                                        </div>
+                                        <div class="otherguestInfo c-white">
+                                            <div class="row">
+                                                <i class="fas fa-map-marker-alt fontIcon"></i>
+                                                <span class="guestInfo">1749 Wheeler Ridge  Delaware</span>  
+                                            </div>
+                                            <div class="row">
+                                                <i class="far fa-user fontIcon"></i>
+                                                <span class="guestInfo">2 x Guests</span>
+                                            </div>
+                                            <div class="row">
+                                                <i class="fas fa-home fontIcon"></i>
+                                                <span class="guestInfo">1 x Room</span>
+                                            </div>
+                                        </div>
+                                        <div class="bookingPrice c-white">
+                                            <span class="discount">$10,500</span>
+                                            <div class="bookSection">
+                                                <span class="price">$ 8,500</span>
+                                                <div class="btnRed btnBook pointer">Book Now</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="secondpackageList">
+                                    <div class="packageOther flexColumn">
+                                        <div class="btnRed flashBtn">Flash Offer</div>
+                                        <div class="imagePackage img img3">
+                                        </div>
+                                        <div class="bookingCard smallCard">
+                                            <div class="hotelTitle">
+                                                <div>
+                                                    <span class="otherhotelName">White Palace</span>
+                                                </div>
+                                            </div>
+                                            <div class="otherguestInfo c-white">
+                                                <div class="row">
+                                                    <i class="fas fa-map-marker-alt fontIcon"></i>
+                                                    <span class="guestInfo">1749 Wheeler Ridge  Delaware</span>  
+                                                </div>
+                                                <div class="row">
+                                                    <i class="far fa-user fontIcon"></i>
+                                                    <span class="guestInfo">2 x Guests</span>
+                                                </div>
+                                                <div class="row">
+                                                    <i class="fas fa-home fontIcon"></i>
+                                                    <span class="guestInfo">1 x Room</span>
+                                                </div>
+                                            </div>
+                                            <div class="bookingPrice c-white">
+                                                <span class="discount">$10,500</span>
+                                                <div class="bookSection">
+                                                    <span class="price">$9,500</span>
+                                                    <div class="btnRed btnBook pointer">Book Now</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="packageOther flexColumn">
+                                        <div class="btnRed flashBtn">Flash Offer</div>
+                                        <div class="imagePackage img img4">
+                                        </div>
+                                        <div class="bookingCard smallCard">
+                                            <div class="hotelTitle">
+                                                <div>
+                                                    <span class="otherhotelName">Luxury Place</span>
+                                                </div>
+                                            </div>
+                                            <div class="otherguestInfo c-white">
+                                                <div class="row">
+                                                    <i class="fas fa-map-marker-alt fontIcon"></i>
+                                                    <span class="guestInfo">1479 Wheeler Ridge  Delaware</span>  
+                                                </div>
+                                                <div class="row">
+                                                    <i class="far fa-user fontIcon"></i>
+                                                    <span class="guestInfo">2 x Guests</span>
+                                                </div>
+                                                <div class="row">
+                                                    <i class="fas fa-home fontIcon"></i>
+                                                    <span class="guestInfo">1 x Room</span>
+                                                </div>
+                                            </div>
+                                            <div class="bookingPrice c-white">
+                                                <span class="discount">$4,500</span>
+                                                <div class="bookSection">
+                                                    <span class="price">$2,500</span>
+                                                    <div class="btnRed btnBook pointer">Book Now</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="secondpackageColumn">
+                            <div class="packageOther flexColumn">
+                                <div class="btnRed flashBtn">Flash Offer</div>
+                                <div class="imagePackage img img2">
+                                </div>
+                                <div class="bookingCard smallCard">
+                                    <div class="hotelTitle">
+                                        <div>
+                                            <span class="otherhotelName">LUX* Belle Mare</span>
+                                        </div>
+                                    </div>
+                                    <div class="otherguestInfo c-white">
+                                        <div class="row">
+                                            <i class="fas fa-map-marker-alt fontIcon"></i>
+                                            <span class="guestInfo">1749 Wheeler Ridge  Delaware</span>  
+                                        </div>
+                                        <div class="row">
+                                            <i class="far fa-user fontIcon"></i>
+                                            <span class="guestInfo">2 x Guests</span>
+                                        </div>
+                                        <div class="row">
+                                            <i class="fas fa-home fontIcon"></i>
+                                            <span class="guestInfo">1 x Room</span>
+                                        </div>
+                                    </div>
+                                    <div class="bookingPrice c-white">
+                                        <span class="discount">$8,500</span>
+                                        <div class="bookSection">
+                                            <span class="price">$ 3,000</span>
+                                            <div class="btnRed btnBook pointer">Book Now</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="packageOther flexColumn m-t30">
+                            <div class="btnRed flashBtn">Flash Offer</div>
+                            <div class="imagePackage img img5">
+                            </div>
+                            <div class="bookingCard smallCard">
+                                <div class="hotelTitle">
+                                    <div>
+                                        <span class="otherhotelName">Hotel Five Star</span>
+                                    </div>
+                                </div>
+                                <div class="otherguestInfo c-white">
+                                    <div class="row">
+                                        <i class="fas fa-map-marker-alt fontIcon"></i>
+                                        <span class="guestInfo">1749 Wheeler Ridge  Delaware</span>  
+                                    </div>
+                                    <div class="row">
+                                        <i class="far fa-user fontIcon"></i>
+                                        <span class="guestInfo">2 x Guests</span>
+                                    </div>
+                                    <div class="row">
+                                        <i class="fas fa-home fontIcon"></i>
+                                        <span class="guestInfo">1 x Room</span>
+                                    </div>
+                                </div>
+                                <div class="bookingPrice c-white">
+                                    <span class="discount">$6,500</span>
+                                    <div class="bookSection">
+                                        <span class="price">$3,500</span>
+                                        <div class="btnRed btnBook pointer">Book Now</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="whatpeopleThink">
+                <div class="bigTitle">
+                    WHAT PEOPLE THINKS ABOUT US
+                </div>
+                <div id="reviewContainer">
+                    <div class="arrow left">
+                        <i class="fas fa-chevron-left"></i>
+                    </div>
+                    <div class="arrow right">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                    <div class="reviewProfile"></div>
+                    <div id="review" class="b-white">
+                        <div id="authorReview">
+                            <span id="authorName">Megan Fox</span>
+                            <span id="authorPlace">Stayed 18 Nov,2019</span>
+                            <div class="stars">
+                                <i class="fas fa-star starIcon"></i>
+                                <i class="fas fa-star starIcon"></i>
+                                <i class="fas fa-star starIcon"></i>
+                                <i class="fas fa-star starIcon"></i>
+                                <i class="fas fa-star starIcon"></i>
+                            </div>
+                        </div>
+                        <div id="textReview">
+                            <span>It was very nice hotel with cleanliness. Staff behavior was good and polite. They welcome us very well. Issue was only that Lift was not in working and we were allotted to 3rd floor and amenities articles were in corner of gallery which were giving bad feeling. Breakfast was good and support of the staff was also very nice. Location is not good as per atmosphere, it is very nearby most of the popular places but self location in a narrow street is not good. Overall it was a good experience and could recommend. </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </div>
+    <section id="newsletter">
+        <div class="newsletterImage">
+            <div id="subscribe">
+                <span id="subtitle">subscribe to our</span>
+                <span id="newsTitle">NEWSLETTER</span>
+            </div>
+            <form action="" class="searchHotels">
+                <input type="text" class="inputSearch b-grey p-l" placeholder="Your email address">
+                <div class="searchBtn btnRed pointer">Send</div>
+            </form>
+        </div>
+    </section>
+    <section class="paddingPage" id="otherActivities">
+        <div class="title m50">
+            OTHER ACTIVITIES
+        </div>
+        <div id="activityImages">
+            <div class="firstImage activity">
+                <div class="activitiesBooking">
+                    <span class="activityTitle">The curious corner of chamarel</span>
+                    <div class="btnRed activityBtn">Book Now</div>
+                </div>
+            </div>
+            <div class="secondImage activity">
+                <div class="activitiesBooking">
+                    <span class="activityTitle">Gymkhana club golf course</span>
+                    <div class="btnRed activityBtn">Book Now</div>
+                </div>
+            </div>
+            <div class="thirdImage activity">
+                <div class="activitiesBooking">
+                    <span class="activityTitle">Tamarind falls hiking trip - full day</span>
+                    <div class="btnRed activityBtn">Book Now</div>
+                </div>
+            </div>
+            <div class="fourthImage activity">
+                <div class="activitiesBooking">
+                    <span class="activityTitle">The blue marine discovery quest</span>
+                    <div class="btnRed activityBtn">Book Now</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footerSection" class="paddingPage">
+        <section id="topFooter">
+            <div class="toursLogo">
+                <strong class="c-white"><span>BEST <br><span class="c-red">TOUR</span><br>PLAN</span></strong>  
+            </div>
+            <div class="infos">
+                <div class="infoTitle">ALL CATEGORIES</div>
+                <div class="listInfo">
+                    <ul>
+                        <li>All Deals</li>
+                        <li>Hotels</li>
+                        <li>Activities</li>
+                        <li>Spa Packages</li>
+                        <li>Hotel Day Packages</li>
+                        <li>Restaurants</li>
+                        <li>Fitness</li>
+                        <li>Rodrigues</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="socialInfo flexColumn">
+                <div class="infos">
+                    <div class="infoTitle">ADDITIONAL INFORMATION</div>
+                    <div class="listInfo">
+                        <ul>
+                            <li>About Us</li>
+                            <li>Contact Us</li>
+                            <li>How does it work?</li>
+                            <li>Frequently Asked Questions</li>
+                            <li>Deals.mu loyalty program</li>
+                            <li>Promote your Business on BTP</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="infos">
+                    <div class="infoTitle">SOCIAL NETWORK</div>
+                    <span><i class="fab fa-facebook socialIcon"></i><i class="fab fa-youtube socialIcon"></i><i class="fab fa-instagram-square socialIcon"></i></span>
+                </div>
+            </div>
+            <div class="infos">
+                <div class="infoTitle">LEGAL INFORMATION</div>
+                <div class="listInfo">
+                    <ul>
+                        <li>Terms & Conditions</li>
+                        <li>Disclaimer</li>
+                        <li>Cancellation policy</li>
+                        <li>Privacy</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div id="contactDetails">
+                <div id="title">
+                    <div class="infoTitle">CONTACT DETAILS</div>
+                    <div class="details"><span>Feel free to contact us by phone, email or by our contact form</span></div>
+                </div>
+                <div class="details">
+                    <div id="iconsList" class="flexColumn">
+                        <div class="icon firstIcon"><i class="fas fa-map-marker-alt fontIcon"></i></div>
+                        <div class="icon secondIcon"><i class="fas fa-phone-volume" ></i></div>
+                        <div class="icon thirdIcon"><i class="fas fa-envelope"></i></div>
+                    </div>
+                    <div id="textDetails">
+                        <span></i>9748 Blossom Hill Rd undefined Lansing, Idaho 68545 United States</span>
+                        <ul>
+                            <li>Tel (business hours) : 269 1500
+                            </li>
+                            <li>Tel (hotline) Monday - Saturday: 52-56-61-38 (08:00 am – 20:00 pm)
+                            </li>
+                            <li>Tel (hotline) Sunday: 52-56-61-38 (08:00 am – 14:00 pm)
+                            </li>
+                        </ul>
+                        <span>cherly.lawson@example.com</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="sendMessage">
+                <div id="messageTitle">
+                    <div class="infoTitle">SEND US A MESSAGE</div>
+                </div>
+                <form action="">
+                    <div id="messageAuthor">
+                        <input class="authorData" type="text" placeholder="Your full Name*">
+                        <input class="authorData" type="text" placeholder="Phone Number*">
+                    </div>
+                    <div id="messageBox">
+                        <input id="messageArea" type="text" placeholder="Message">
+                    </div>
+                    <div id="messageBtn">
+                        <input type="button" value="Send" class="btnRed btnMsg">
+                        <div id="required"><span>* Required Fields</span></div>
+                    </div>
+                    
+                </form>
+            </div>
+        </section>
+        <section id="footerBottom">
+            <div id="conditionBottom">
+                <span>Disclaimer</span>
+                <span>Conditions of use</span>
+                <span>Cancellation policy</span>
+            </div>
+            <div id="paymentLogos"></div>
+        </section>
+    </footer>
+    </main>
 </body>
 </html>
