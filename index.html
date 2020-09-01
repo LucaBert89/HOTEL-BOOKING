@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Luca Bertoldi" />
-    <meta name ="copyright" content="Luca Bertoldi"/>
+    <meta name ="copyright" content="Luca Bertoldi" />
     <meta name="description" content="An Hotel landing page, flash offer Packages and other activities">
-    <meta name ="keywords" content="booking,hotel,holidays,flash offer, rooms,rooms free, holiday packages, holiday activities, tour plan, five star hotels,luxury hotels, restaurants, best tours"/>
+    <meta name ="keywords" content="booking,hotel,holidays,flash offer, rooms,rooms free, holiday packages, holiday activities, tour plan, five star hotels,luxury hotels"/>
     <meta property="og:type" content="Tour package website">
+    <meta property="og:site_name" content="bestbookingplan">
     <meta property="og:title" content="Best Tour Plan" />
     <meta property="og:description" content="Best tour plan helps you to look for the package that fits to you: hotel, activities,restaurants and a lot more." />
-    <meta property="og:image" content="https://bestbookingplan.netlify.app/assets/images/Grand-hotel.svg" />
+    <meta property="og:image" content="https://bestbookingplan.netlify.app/assets/images/Socialpreview/GrandHotel-social.png"/>
     <meta property="og:url" content="https://bestbookingplan.netlify.app/" />
-    <meta property="og:locale" content="it_IT">
 
     <title>BestTourPlan</title>
     
@@ -42,8 +42,10 @@
                 <div id="toursTitle">
                     <strong><span>BEST <span class="c-red">TOUR</span>  PLAN</span></strong>
                 </div>
-                    <input type="text" class="inputSearch b-grey" id="locationSearch" placeholder="Search Location">
-                    <div class="searchBtn btnRed pointer"><i class="fas fa-search"></i></div>
+                <form action="" class="searchHotels">
+                    <input type="text" class="inputSearch b-grey" name="locationSearch" aria-label="locationSearch" placeholder="Search Location">
+                    <button class="searchBtn btnRed pointer"><i class="fas fa-search"></i></button>
+                </form>
             </div>
             <div class="clienticonsWrap flexCenter">
                 <div id="shoppingcartWrap" class="p-r40 pointer">
@@ -496,8 +498,10 @@
                 <span id="subtitle">subscribe to our</span>
                 <span id="newsTitle">NEWSLETTER</span>
             </div>
-                <input type="text" class="inputSearch b-grey p-l" id="emailAddress" placeholder="Your email address">
-                <div class="searchBtn btnRed pointer">Send</div>
+            <form action="" class="searchHotels">
+                <input type="text" class="inputSearch b-grey p-l" name="emailAddress" aria-label="emailAddress" placeholder="Your email address">
+                <button type="submit" class="searchBtn btnRed pointer">Send</button>
+            </form>
         </div>
     </section>
     <section class="paddingPage" id="otherActivities">
@@ -613,18 +617,20 @@
                 <div id="messageTitle">
                     <div class="infoTitle">SEND US A MESSAGE</div>
                 </div>
+                <form action="">
                     <div id="messageAuthor">
-                        <input class="authorData" type="text" placeholder="Your full Name*" id="authorName">
-                        <label for="authorPhone"></label>
-                        <input class="authorData" type="text" placeholder="Phone Number*" id="authorPhone">
+                        <input class="authorData" type="text" placeholder="Your full Name*" name="authorName" aria-label="authorName">
+                        <input class="authorData" type="text" placeholder="Phone Number*" name="authorPhone" aria-label="authorPhone">
                     </div>
                     <div id="messageBox">
-                        <input id="messageArea" type="text" placeholder="Message">
+                        <input id="messageArea" type="text" placeholder="Message" name="Message" aria-label="Message">
                     </div>
                     <div id="messageBtn">
-                        <input type="button" value="Send" class="btnRed btnMsg">
+                        <button type="submit" class="btnRed btnMsg">Send</button>
                         <div id="required"><span>* Required Fields</span></div>
                     </div>
+                    
+                </form>
             </div>
         </section>
         <section id="footerBottom">

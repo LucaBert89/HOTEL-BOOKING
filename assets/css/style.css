@@ -60,6 +60,7 @@ body {
 }
 
 .btnRed {
+    border:none;
     color:#fff;
     background-color: #EC1F46;
     border-top-right-radius: 5px;
@@ -596,7 +597,7 @@ ul li{
     width:100px;
     height:30px;
     display:flex;
-    justify-content: center;
+    align-items: center;
 }
 
 /* footer */
