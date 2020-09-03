@@ -7,6 +7,8 @@ body {
     padding:0;
     font-family: 'Mulish', sans-serif;
     background-color:#F5FAFE;
+    max-width: 1440px;
+    margin:auto;
 }
 
 #clientHelps {
@@ -340,7 +342,7 @@ ul li{
 
 #packagesBlock {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .bigPackage {
