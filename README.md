@@ -1,4 +1,4 @@
-# HOTEL BOOKING WEBPAGE
+# HOTEL BOOKING WEBPAGE  -- DESKTOP ONLY
 
 This is an hotel landing page. It has **only a desktop view** without responsiveness because it's a basic level html project.
 I added the **meta tag** and **open graph tag** to improve the social share visibility and the SEO.
